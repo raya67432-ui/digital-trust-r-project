@@ -2,11 +2,11 @@ Digital Media Use and Trust in Institutions
 
 A short R data-cleaning and descriptive-analysis project, built as a portfolio piece for research assistant roles requiring R.
 
-What this shows
+What this shows:
 Cleaning a messy raw survey export: de-duplication, inconsistent category labels, numeric missing-value codes, type conversion
-Recoding variables into ordered factors
-Building a composite index from multiple survey items
-Descriptive statistics and ggplot2 visualizations
+Recoding variables into ordered factors,
+Building a composite index from multiple survey items,
+Descriptive statistics and ggplot2 visualizations,
 A fully reproducible R Markdown report (digital_trust_analysis.Rmd → digital_trust_analysis.html)
 Data
 
