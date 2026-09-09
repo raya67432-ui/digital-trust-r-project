@@ -8,6 +8,7 @@ Recoding variables into ordered factors,
 Building a composite index from multiple survey items,
 Descriptive statistics and ggplot2 visualizations,
 A fully reproducible R Markdown report (digital_trust_analysis.Rmd → digital_trust_analysis.html)
+
 Data
 
 The survey responses are simulated, but the questionnaire items are modeled directly on real instruments: the European Social Survey's media-use module and the standard 0–10 institutional trust battery used in the ESS and World Values Survey. This keeps the project reproducible and self-contained while reflecting the structure and messiness of real cross-national survey data exports.
