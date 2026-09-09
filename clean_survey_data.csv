@@ -1,0 +1,601 @@
+"resp_id","country","age_grp","education","net_use_news","trust_parliament","trust_press","trust_science","trust_politicians","trust_index"
+1,"Finland","45-54","secondary","Several times a week",1,2,3,NA,2
+2,"Germany","65+","secondary","Once a week",NA,8,8,4,6.66666666666667
+3,"Finland","25-34","primary","Less than once a month",NA,1,NA,2,1.5
+4,"Finland","45-54","primary",NA,NA,5,0,NA,2.5
+5,"Finland","35-44","tertiary","Once a week",9,1,0,9,4.75
+6,"Sweden","45-54","primary","Several times a month",NA,5,4,NA,4.5
+7,"Finland","18-24",NA,NA,9,NA,10,1,6.66666666666667
+8,"Finland","45-54","secondary","Every day",3,NA,10,NA,6.5
+9,"Finland","35-44","tertiary","Every day",NA,2,9,6,5.66666666666667
+10,"","35-44","primary","Every day",7,10,0,3,5
+11,"Poland","55-64",NA,"Every day",4,5,NA,1,3.33333333333333
+12,"","35-44","primary","Several times a month",5,5,7,NA,5.66666666666667
+13,"Poland","25-34","secondary","Once a week",5,NA,NA,NA,5
+14,"Sweden","55-64","secondary","Every day",8,7,9,0,6
+15,"Finland","25-34","tertiary",NA,5,NA,NA,8,6.5
+16,"Germany","35-44","secondary","Every day",6,6,4,1,4.25
+17,"Estonia","55-64","secondary","Once a week",3,3,7,10,5.75
+18,"Sweden","55-64","secondary","Once a month",9,2,5,0,4
+19,"Finland","25-34","primary","Never",4,2,4,0,2.5
+20,"Finland","65+","tertiary","Every day",0,6,NA,10,5.33333333333333
+21,"Poland","55-64","tertiary","Several times a week",9,NA,10,NA,9.5
+22,"Finland","65+","secondary","Every day",2,10,4,1,4.25
+23,"Finland","35-44","primary","Every day",9,4,NA,NA,6.5
+24,"Finland","55-64","secondary",NA,NA,1,NA,NA,1
+25,"Finland","35-44","tertiary","Once a week",1,4,8,0,3.25
+26,"Sweden","25-34","tertiary","Every day",8,7,1,2,4.5
+27,"Germany","35-44","tertiary","Several times a week",3,1,NA,5,3
+28,"Poland","25-34",NA,"Once a week",10,3,3,1,4.25
+29,"Germany","45-54",NA,NA,NA,6,NA,4,5
+30,"Germany","55-64","tertiary","Every day",4,10,10,4,7
+31,"Sweden","55-64","tertiary","Every day",7,NA,2,7,5.33333333333333
+32,"Finland","35-44","tertiary","Every day",1,NA,3,9,4.33333333333333
+33,"Sweden","25-34","primary","Every day",NA,9,10,9,9.33333333333333
+34,"","35-44","tertiary","Every day",NA,3,NA,3,3
+35,"Finland","65+","secondary","Every day",5,4,5,1,3.75
+36,"Finland","25-34",NA,"Several times a week",NA,9,4,3,5.33333333333333
+37,"Finland","18-24","tertiary","Every day",NA,5,NA,1,3
+38,"Finland","55-64","secondary","Several times a week",9,6,NA,8,7.66666666666667
+39,"","65+",NA,"Every day",NA,10,10,1,7
+40,"Estonia","65+","primary",NA,2,NA,3,6,3.66666666666667
+41,"Finland","25-34",NA,"Every day",7,NA,NA,2,4.5
+42,"Poland","25-34","secondary","Several times a week",10,4,0,7,5.25
+43,"Estonia","18-24","secondary","Once a month",6,5,NA,6,5.66666666666667
+44,"Finland","45-54","tertiary",NA,2,4,4,7,4.25
+45,"","45-54","tertiary","Once a month",5,8,9,4,6.5
+46,"Sweden","45-54",NA,"Never",7,NA,0,1,2.66666666666667
+47,"Sweden","55-64","secondary","Every day",NA,7,9,NA,8
+48,"Estonia","25-34","tertiary","Every day",8,9,2,0,4.75
+49,"Finland","55-64","secondary","Several times a week",6,7,7,3,5.75
+50,"Germany","18-24","secondary","Once a week",9,7,1,NA,5.66666666666667
+51,"Sweden","35-44","tertiary","Once a week",2,0,3,3,2
+52,"Germany","55-64","secondary","Every day",2,6,4,NA,4
+53,"Sweden","65+",NA,"Once a month",2,1,8,NA,3.66666666666667
+54,"Finland","25-34","primary","Once a month",6,3,8,7,6
+55,"","65+","tertiary","Once a week",0,6,2,7,3.75
+56,"Finland","55-64","primary","Every day",3,NA,8,4,5
+57,"Finland","65+","secondary","Once a week",1,2,1,NA,1.33333333333333
+58,"","35-44","primary","Every day",2,NA,1,10,4.33333333333333
+59,"Poland","45-54","secondary","Several times a month",1,5,3,4,3.25
+60,"Finland","55-64","secondary","Several times a month",NA,10,7,NA,8.5
+61,"Germany","35-44",NA,"Every day",9,10,NA,8,9
+62,"Finland","55-64","primary","Several times a week",6,NA,9,5,6.66666666666667
+63,"Finland","55-64",NA,"Several times a month",0,3,3,10,4
+64,"Estonia","18-24",NA,"Several times a month",2,5,2,7,4
+65,"Estonia","55-64","tertiary",NA,10,4,5,6,6.25
+66,"Finland","55-64",NA,"Several times a week",3,NA,7,5,5
+67,"Sweden","65+","secondary","Every day",3,6,NA,9,6
+68,"Finland","65+","tertiary","Every day",NA,3,3,0,2
+69,"Estonia","25-34","tertiary",NA,NA,NA,NA,NA,NA
+70,"Germany","55-64","primary","Several times a week",4,6,8,9,6.75
+71,"Finland","18-24","primary","Once a week",3,1,1,3,2
+72,"Poland","25-34","primary",NA,5,8,10,3,6.5
+73,"Estonia","35-44","primary","Several times a month",NA,1,6,1,2.66666666666667
+74,"Finland","45-54",NA,"Several times a week",NA,9,3,7,6.33333333333333
+75,"Finland","25-34","tertiary","Several times a week",6,NA,1,NA,3.5
+76,"","35-44","secondary","Every day",1,10,8,7,6.5
+77,"Germany","35-44","tertiary","Never",7,3,7,10,6.75
+78,"Finland","18-24","primary","Every day",NA,10,7,6,7.66666666666667
+79,"Finland","65+","tertiary","Several times a week",3,9,4,5,5.25
+80,"Poland","45-54","primary","Every day",0,6,0,1,1.75
+81,"Sweden","45-54","tertiary","Every day",NA,6,NA,NA,6
+82,"Germany","35-44","secondary","Every day",NA,3,0,10,4.33333333333333
+83,"Finland","25-34","tertiary","Once a week",10,NA,9,7,8.66666666666667
+84,"Finland","45-54","secondary","Every day",2,NA,6,1,3
+85,"Germany","35-44","tertiary","Every day",8,4,NA,7,6.33333333333333
+86,"Sweden","55-64",NA,"Every day",4,NA,5,NA,4.5
+87,"Sweden","45-54",NA,"Every day",6,4,3,10,5.75
+88,"Finland","35-44","secondary","Once a week",NA,3,7,NA,5
+89,"Finland","18-24",NA,"Every day",10,8,NA,NA,9
+90,"Finland","35-44","tertiary","Once a week",8,3,6,3,5
+91,"Germany","55-64","tertiary","Several times a month",10,NA,10,2,7.33333333333333
+92,"","25-34","tertiary","Several times a week",4,0,NA,6,3.33333333333333
+93,"Germany","55-64","tertiary","Every day",10,9,NA,NA,9.5
+94,"Sweden","55-64","tertiary","Every day",NA,4,4,9,5.66666666666667
+95,"","45-54","tertiary","Once a month",5,NA,4,NA,4.5
+96,"Estonia","25-34","tertiary","Every day",3,2,NA,4,3
+97,"Germany","18-24","tertiary","Every day",NA,10,4,8,7.33333333333333
+98,"Sweden","25-34",NA,"Once a week",1,9,5,0,3.75
+99,"Estonia","35-44","secondary","Several times a week",5,NA,NA,1,3
+100,"Finland","35-44","tertiary","Several times a month",3,8,2,2,3.75
+101,"Finland","25-34","secondary","Several times a week",0,9,9,6,6
+102,"","25-34","tertiary","Once a week",1,10,0,4,3.75
+103,"Finland","55-64",NA,"Several times a month",7,4,NA,4,5
+104,"Finland","45-54","tertiary","Several times a week",1,3,0,7,2.75
+105,"Germany","35-44","secondary","Every day",2,NA,9,NA,5.5
+106,"Estonia","45-54","secondary","Once a week",4,NA,0,NA,2
+107,"","55-64","tertiary",NA,10,8,10,NA,9.33333333333333
+108,"Poland","65+","secondary","Once a week",8,3,9,NA,6.66666666666667
+109,"","25-34",NA,"Several times a week",NA,2,7,NA,4.5
+110,"Germany","25-34","secondary","Once a week",NA,7,3,NA,5
+111,"Sweden","18-24",NA,"Never",1,0,10,9,5
+112,"Finland","55-64","secondary","Once a week",NA,8,3,NA,5.5
+113,"Sweden","35-44","tertiary","Never",3,3,3,5,3.5
+114,"Poland","35-44","tertiary","Never",0,4,9,9,5.5
+115,"Finland","55-64","tertiary","Once a month",6,10,7,7,7.5
+116,"Finland","55-64",NA,"Every day",NA,2,1,NA,1.5
+117,"Finland","25-34","tertiary","Every day",NA,3,5,10,6
+118,"Germany","55-64","secondary",NA,9,10,0,NA,6.33333333333333
+119,"Germany","65+","primary","Several times a week",NA,1,8,9,6
+120,"Estonia","55-64",NA,"Every day",4,6,2,2,3.5
+121,"Finland","25-34","secondary","Every day",NA,2,NA,2,2
+122,"","18-24","tertiary","Several times a week",10,8,NA,NA,9
+123,"","45-54","secondary",NA,0,NA,8,5,4.33333333333333
+124,"Estonia","25-34",NA,"Several times a week",7,NA,5,NA,6
+125,"Sweden","35-44","tertiary",NA,7,3,0,NA,3.33333333333333
+126,"Germany","65+","secondary","Every day",NA,NA,4,NA,4
+127,"Finland","18-24","secondary","Every day",6,1,NA,NA,3.5
+128,"Sweden","25-34","primary","Every day",10,0,3,NA,4.33333333333333
+129,"Finland","55-64","tertiary","Several times a week",2,6,NA,6,4.66666666666667
+130,"Finland","25-34",NA,"Every day",NA,4,NA,1,2.5
+131,"Germany","45-54","primary","Every day",4,NA,1,3,2.66666666666667
+132,"Estonia","65+",NA,"Several times a week",0,NA,1,NA,0.5
+133,"Finland","35-44","secondary",NA,NA,2,3,7,4
+134,"Finland","45-54",NA,"Every day",6,1,NA,3,3.33333333333333
+135,"Finland","25-34","secondary","Once a week",8,2,NA,3,4.33333333333333
+136,"","18-24","secondary","Once a week",NA,8,NA,5,6.5
+137,"","45-54","secondary","Less than once a month",6,3,4,4,4.25
+138,"Germany","45-54","secondary","Every day",0,10,3,4,4.25
+139,"Poland","65+","tertiary","Every day",NA,3,7,NA,5
+140,"Estonia","18-24","secondary",NA,6,9,8,8,7.75
+141,"Finland","65+",NA,"Several times a month",6,NA,NA,8,7
+142,"Germany","55-64","tertiary","Several times a month",2,0,3,6,2.75
+143,"Estonia","25-34","secondary","Every day",0,7,4,1,3
+144,"Germany","25-34",NA,"Every day",NA,0,NA,3,1.5
+145,"Finland","65+","primary",NA,NA,9,0,NA,4.5
+146,"Poland","55-64","secondary","Several times a month",0,NA,6,8,4.66666666666667
+147,"","25-34","tertiary",NA,5,6,4,NA,5
+148,"Finland","45-54","tertiary","Several times a month",NA,3,6,9,6
+149,"Finland","35-44","secondary","Every day",NA,2,3,5,3.33333333333333
+150,"Finland","25-34",NA,NA,NA,9,NA,3,6
+151,"Finland","25-34","tertiary","Once a week",NA,10,2,6,6
+152,"","25-34",NA,"Several times a week",4,8,4,6,5.5
+153,"Finland","25-34",NA,"Every day",3,5,3,NA,3.66666666666667
+154,"Finland","18-24",NA,"Every day",NA,NA,9,4,6.5
+155,"Finland","35-44",NA,"Once a week",3,NA,NA,NA,3
+156,"Germany","65+","primary","Every day",6,NA,9,3,6
+157,"Finland","45-54","secondary","Every day",NA,1,NA,NA,1
+158,"Finland","35-44","secondary","Every day",NA,8,0,NA,4
+159,"Poland","25-34","secondary","Never",10,3,10,NA,7.66666666666667
+160,"","55-64","secondary","Once a week",NA,NA,6,NA,6
+161,"Finland","45-54","tertiary","Never",5,7,8,1,5.25
+162,"Estonia","35-44","secondary","Every day",1,NA,8,5,4.66666666666667
+163,"Estonia","55-64",NA,NA,8,NA,NA,8,8
+164,"Poland","25-34",NA,"Every day",NA,NA,7,5,6
+165,"Estonia","35-44","secondary","Several times a week",NA,NA,0,NA,0
+166,"","25-34","tertiary","Every day",9,0,4,7,5
+167,"Poland","25-34","secondary","Once a week",1,6,0,NA,2.33333333333333
+168,"Finland","55-64","tertiary","Several times a month",4,6,5,8,5.75
+169,"Estonia","25-34",NA,"Every day",7,6,NA,3,5.33333333333333
+170,"Germany","65+","secondary","Every day",6,8,5,3,5.5
+171,"","45-54","secondary","Every day",0,1,7,NA,2.66666666666667
+172,"Finland","18-24","secondary","Every day",7,NA,1,4,4
+173,"","45-54",NA,"Several times a month",NA,5,4,7,5.33333333333333
+174,"Estonia","45-54","tertiary","Every day",2,1,NA,2,1.66666666666667
+175,"Finland","35-44","tertiary","Every day",NA,4,NA,3,3.5
+176,"Finland","18-24","tertiary","Every day",1,10,3,0,3.5
+177,"Poland","65+","secondary","Every day",5,8,7,8,7
+178,"Finland","35-44","primary",NA,6,NA,2,NA,4
+179,"Estonia","55-64","secondary","Every day",2,3,3,9,4.25
+180,"","35-44",NA,"Every day",2,NA,8,NA,5
+181,"Estonia","35-44","secondary","Less than once a month",1,NA,6,0,2.33333333333333
+182,"Estonia","45-54","tertiary","Several times a week",4,5,8,4,5.25
+183,"Estonia","18-24","secondary",NA,5,0,NA,4,3
+184,"Poland","25-34",NA,"Every day",8,9,0,9,6.5
+185,"Estonia","45-54","tertiary","Once a month",2,6,8,9,6.25
+186,"Sweden","18-24","secondary","Every day",1,8,7,6,5.5
+187,"Sweden","45-54","tertiary","Every day",5,NA,6,6,5.66666666666667
+188,"Poland","55-64","secondary","Several times a month",9,7,1,4,5.25
+189,"Finland","35-44",NA,"Less than once a month",0,NA,NA,2,1
+190,"Finland","18-24","tertiary","Several times a month",NA,5,10,4,6.33333333333333
+191,"Poland","45-54",NA,"Several times a week",4,5,5,1,3.75
+192,"Sweden","18-24","tertiary","Less than once a month",3,1,1,1,1.5
+193,"Estonia","45-54",NA,NA,1,0,7,10,4.5
+194,"Sweden","18-24","secondary","Several times a month",2,NA,9,2,4.33333333333333
+195,"","25-34","tertiary","Every day",NA,7,8,NA,7.5
+196,"Finland","35-44","primary","Several times a week",5,0,9,4,4.5
+197,"Finland","55-64","tertiary","Every day",9,1,9,7,6.5
+198,"Finland","25-34",NA,"Never",5,NA,3,2,3.33333333333333
+199,"Finland","18-24","tertiary","Several times a week",8,9,4,6,6.75
+200,"","55-64","primary","Every day",NA,0,6,NA,3
+201,"","35-44","tertiary","Once a week",9,0,1,NA,3.33333333333333
+202,"Finland","25-34","tertiary","Every day",9,0,NA,8,5.66666666666667
+203,"Finland","55-64","secondary","Every day",2,3,3,NA,2.66666666666667
+204,"Sweden","25-34",NA,"Every day",2,5,1,1,2.25
+205,"Finland","45-54",NA,"Once a week",5,NA,2,9,5.33333333333333
+206,"Germany","18-24","tertiary","Several times a week",7,NA,2,4,4.33333333333333
+207,"Estonia","35-44","tertiary","Every day",0,2,3,3,2
+208,"Estonia","45-54","tertiary","Once a week",3,NA,7,9,6.33333333333333
+209,"Finland","25-34","secondary","Every day",0,4,2,NA,2
+210,"Sweden","65+","secondary","Once a week",NA,NA,3,2,2.5
+211,"Finland","35-44","secondary","Every day",1,1,9,NA,3.66666666666667
+212,"Poland","18-24",NA,"Several times a week",6,1,9,8,6
+213,"","18-24",NA,"Several times a month",3,NA,6,1,3.33333333333333
+214,"Finland","65+","tertiary","Every day",4,NA,NA,4,4
+215,"Finland","45-54","primary","Every day",6,10,NA,8,8
+216,"Finland","25-34","primary","Less than once a month",4,NA,8,NA,6
+217,"Sweden","55-64",NA,"Every day",3,10,NA,1,4.66666666666667
+218,"Estonia","45-54","tertiary",NA,0,7,NA,NA,3.5
+219,"Germany","35-44","secondary","Several times a month",NA,NA,0,1,0.5
+220,"Finland","18-24","tertiary","Every day",NA,0,10,NA,5
+221,"Finland","65+","primary","Several times a month",NA,8,NA,4,6
+222,"Finland","35-44","primary","Once a month",3,3,10,5,5.25
+223,"Germany","55-64","tertiary","Every day",6,5,2,9,5.5
+224,"Finland","55-64","tertiary","Once a week",3,8,NA,5,5.33333333333333
+225,"Estonia","25-34","secondary","Every day",NA,9,NA,NA,9
+226,"Estonia","18-24","tertiary","Less than once a month",1,1,7,2,2.75
+227,"Sweden","35-44","tertiary","Every day",7,7,9,NA,7.66666666666667
+228,"Finland","45-54","primary","Several times a month",1,10,NA,8,6.33333333333333
+229,"Finland","25-34","tertiary","Several times a week",8,7,10,NA,8.33333333333333
+230,"Germany","35-44",NA,"Every day",4,NA,9,4,5.66666666666667
+231,"Finland","55-64","primary",NA,2,0,4,10,4
+232,"Estonia","45-54","primary","Once a month",NA,4,3,NA,3.5
+233,"Finland","25-34",NA,"Once a week",1,7,NA,9,5.66666666666667
+234,"Poland","65+","secondary","Every day",NA,3,7,8,6
+235,"Poland","65+","secondary","Never",NA,2,2,8,4
+236,"Germany","25-34","primary","Once a week",1,3,NA,6,3.33333333333333
+237,"Finland","18-24","secondary","Several times a month",9,0,0,9,4.5
+238,"Sweden","45-54","tertiary","Never",4,6,6,5,5.25
+239,"Finland","65+","secondary",NA,NA,NA,8,1,4.5
+240,"","35-44","tertiary","Every day",9,NA,10,4,7.66666666666667
+241,"Finland","18-24","secondary","Every day",NA,4,7,NA,5.5
+242,"Finland","25-34","primary",NA,7,2,9,10,7
+243,"Finland","65+","tertiary","Every day",0,4,7,1,3
+244,"Estonia","35-44","secondary",NA,NA,4,7,1,4
+245,"Sweden","18-24","tertiary","Every day",2,10,NA,6,6
+246,"Sweden","65+","primary","Every day",7,9,1,NA,5.66666666666667
+247,"Sweden","45-54","tertiary","Every day",8,8,0,10,6.5
+248,"Finland","45-54",NA,"Several times a week",4,NA,6,6,5.33333333333333
+249,"Finland","18-24","tertiary","Several times a month",NA,3,5,9,5.66666666666667
+250,"Finland","18-24","tertiary","Every day",8,3,8,4,5.75
+251,"Finland","35-44","secondary","Every day",10,8,5,1,6
+252,"Estonia","65+","tertiary","Every day",5,NA,7,2,4.66666666666667
+253,"Germany","45-54","secondary",NA,NA,7,6,NA,6.5
+254,"Poland","65+","tertiary","Once a week",3,10,NA,4,5.66666666666667
+255,"Estonia","18-24",NA,"Several times a week",9,9,7,7,8
+256,"Sweden","45-54",NA,"Every day",6,10,3,2,5.25
+257,"Poland","65+",NA,"Once a week",3,NA,NA,NA,3
+258,"Finland","45-54","primary","Several times a week",1,10,5,4,5
+259,"Germany","65+","tertiary","Several times a month",8,4,3,0,3.75
+260,"Sweden","18-24","secondary","Several times a week",8,10,10,5,8.25
+261,"Finland","35-44",NA,NA,4,8,NA,9,7
+262,"Finland","35-44",NA,"Several times a week",1,10,0,10,5.25
+263,"Finland","18-24","tertiary","Several times a month",5,4,2,4,3.75
+264,"Sweden","25-34",NA,"Several times a month",2,10,6,8,6.5
+265,"Finland","35-44","tertiary","Once a week",8,1,NA,1,3.33333333333333
+266,"Poland","35-44","primary",NA,0,2,3,10,3.75
+267,"","18-24",NA,"Every day",5,NA,5,9,6.33333333333333
+268,"Poland","35-44","tertiary","Every day",0,6,NA,1,2.33333333333333
+269,"","18-24",NA,NA,8,NA,10,NA,9
+270,"Finland","18-24",NA,"Every day",9,8,3,6,6.5
+271,"Germany","35-44","secondary","Every day",3,3,8,0,3.5
+272,"Germany","25-34","secondary","Once a month",NA,5,3,9,5.66666666666667
+273,"Sweden","18-24","secondary","Every day",6,4,NA,2,4
+274,"Finland","65+","secondary","Several times a month",10,7,0,2,4.75
+275,"Estonia","25-34",NA,"Several times a month",4,8,4,NA,5.33333333333333
+276,"Finland","65+",NA,"Several times a month",4,5,2,10,5.25
+277,"Sweden","55-64",NA,"Several times a month",6,NA,NA,5,5.5
+278,"Poland","18-24","secondary","Once a week",NA,0,3,NA,1.5
+279,"Germany","65+","tertiary","Once a month",1,9,2,NA,4
+280,"Poland","18-24","tertiary","Every day",3,2,1,NA,2
+281,"","25-34",NA,"Once a week",9,5,6,5,6.25
+282,"Estonia","45-54",NA,"Less than once a month",0,NA,9,NA,4.5
+283,"Poland","45-54","primary","Once a week",1,1,8,0,2.5
+284,"","65+","secondary","Once a week",0,5,6,4,3.75
+285,"Finland","25-34","tertiary","Never",6,2,6,7,5.25
+286,"Poland","35-44","secondary",NA,2,9,3,3,4.25
+287,"Poland","55-64",NA,NA,7,NA,5,NA,6
+288,"Finland","65+","tertiary","Every day",NA,0,10,2,4
+289,"Finland","55-64","tertiary","Several times a month",9,9,4,7,7.25
+290,"Finland","55-64","secondary","Every day",8,1,6,6,5.25
+291,"Finland","25-34",NA,"Several times a week",NA,6,5,NA,5.5
+292,"Finland","18-24","secondary","Every day",5,7,NA,NA,6
+293,"Germany","35-44","primary","Every day",3,10,1,NA,4.66666666666667
+294,"Poland","35-44","secondary","Every day",1,9,NA,7,5.66666666666667
+295,"Sweden","18-24","primary",NA,NA,9,1,5,5
+296,"Sweden","55-64","secondary","Never",6,2,6,8,5.5
+297,"Poland","35-44","tertiary","Every day",6,NA,3,6,5
+298,"Germany","55-64","tertiary","Every day",1,NA,5,NA,3
+299,"Finland","35-44","secondary","Several times a week",NA,8,5,9,7.33333333333333
+300,"Sweden","25-34","secondary","Several times a week",2,10,3,NA,5
+301,"Finland","18-24","tertiary",NA,2,4,NA,1,2.33333333333333
+302,"","25-34","tertiary","Less than once a month",NA,NA,1,2,1.5
+303,"Estonia","45-54","secondary","Several times a week",6,3,NA,0,3
+304,"","18-24","tertiary","Once a week",5,2,0,5,3
+305,"Finland","25-34",NA,"Once a week",NA,8,10,4,7.33333333333333
+306,"Germany","45-54","tertiary","Once a week",NA,1,10,10,7
+307,"Estonia","65+","tertiary","Never",NA,NA,NA,NA,NA
+308,"Finland","65+",NA,"Never",NA,4,NA,NA,4
+309,"Finland","65+","tertiary","Never",8,NA,10,2,6.66666666666667
+310,"Estonia","65+","tertiary","Several times a month",1,10,0,5,4
+311,"Finland","35-44","tertiary",NA,4,2,9,3,4.5
+312,"Estonia","25-34","tertiary","Never",5,5,5,10,6.25
+313,"Estonia","18-24",NA,"Never",8,NA,0,9,5.66666666666667
+314,"Sweden","25-34","secondary","Several times a month",9,NA,10,1,6.66666666666667
+315,"Poland","18-24","tertiary","Every day",6,2,NA,NA,4
+316,"Estonia","25-34","secondary","Every day",NA,8,6,8,7.33333333333333
+317,"Poland","45-54",NA,"Several times a week",7,0,7,7,5.25
+318,"Finland","45-54","tertiary","Every day",0,NA,5,7,4
+319,"Germany","65+","tertiary","Never",0,6,2,6,3.5
+320,"Germany","18-24",NA,"Once a week",8,10,3,2,5.75
+321,"Finland","25-34","secondary",NA,5,6,2,NA,4.33333333333333
+322,"Poland","55-64","primary","Every day",4,3,5,1,3.25
+323,"Germany","18-24",NA,NA,4,1,10,0,3.75
+324,"Finland","18-24","tertiary","Several times a week",NA,NA,2,0,1
+325,"Finland","25-34","secondary","Less than once a month",6,4,NA,NA,5
+326,"Estonia","45-54","tertiary","Never",4,5,9,3,5.25
+327,"Finland","18-24","tertiary","Once a month",NA,4,1,0,1.66666666666667
+328,"Estonia","65+","tertiary","Several times a month",NA,5,9,0,4.66666666666667
+329,"","65+","primary","Never",9,1,1,9,5
+330,"Finland","35-44","tertiary","Every day",9,9,10,7,8.75
+331,"Finland","65+",NA,"Every day",9,6,NA,0,5
+332,"Sweden","18-24","tertiary","Every day",4,5,2,1,3
+333,"Finland","45-54","tertiary","Every day",8,NA,10,5,7.66666666666667
+334,"Poland","18-24",NA,"Every day",NA,9,3,10,7.33333333333333
+335,"Finland","65+",NA,"Every day",8,5,1,2,4
+336,"Finland","35-44",NA,"Every day",NA,3,10,0,4.33333333333333
+337,"Finland","45-54","primary","Every day",2,8,2,9,5.25
+338,"Sweden","35-44","primary","Once a month",1,NA,NA,3,2
+339,"Sweden","18-24","primary","Several times a week",3,4,3,7,4.25
+340,"Poland","45-54","tertiary","Once a week",6,0,0,3,2.25
+341,"Germany","55-64","primary","Never",10,3,4,9,6.5
+342,"Poland","65+","secondary","Several times a week",7,7,5,7,6.5
+343,"Finland","45-54",NA,"Every day",2,2,7,8,4.75
+344,"Finland","55-64","secondary","Several times a month",NA,NA,9,10,9.5
+345,"Estonia","35-44","primary","Once a week",NA,8,NA,6,7
+346,"Germany","45-54","tertiary","Every day",0,9,5,0,3.5
+347,"Estonia","45-54","primary","Never",NA,3,1,NA,2
+348,"Sweden","45-54","secondary","Several times a week",8,NA,5,4,5.66666666666667
+349,"Finland","18-24",NA,"Every day",4,6,7,NA,5.66666666666667
+350,"Finland","35-44","secondary","Several times a month",0,9,3,3,3.75
+351,"Finland","35-44",NA,NA,2,8,0,0,2.5
+352,"Finland","25-34",NA,"Once a week",1,6,9,NA,5.33333333333333
+353,"Sweden","18-24","secondary","Every day",3,NA,NA,4,3.5
+354,"Estonia","35-44",NA,"Never",7,4,4,7,5.5
+355,"Finland","45-54","tertiary",NA,6,8,NA,5,6.33333333333333
+356,"Finland","55-64","secondary","Every day",NA,2,NA,1,1.5
+357,"Poland","18-24","tertiary","Once a month",2,1,NA,4,2.33333333333333
+358,"Poland","45-54","tertiary",NA,8,0,6,3,4.25
+359,"Finland","35-44","secondary","Several times a month",NA,4,9,NA,6.5
+360,"Finland","35-44","tertiary","Once a week",10,5,1,6,5.5
+361,"Finland","55-64","secondary","Several times a week",9,2,1,NA,4
+362,"Finland","35-44","tertiary","Every day",10,NA,NA,7,8.5
+363,"Finland","25-34",NA,"Every day",NA,2,NA,NA,2
+364,"Sweden","65+","tertiary","Every day",1,10,9,5,6.25
+365,"Germany","55-64","tertiary","Every day",6,NA,NA,3,4.5
+366,"Sweden","18-24","secondary","Every day",4,9,1,9,5.75
+367,"Finland","55-64",NA,"Every day",10,8,0,4,5.5
+368,"Estonia","25-34",NA,"Every day",6,8,10,NA,8
+369,"Finland","18-24",NA,"Less than once a month",9,4,2,10,6.25
+370,"Estonia","45-54","secondary","Every day",5,2,7,NA,4.66666666666667
+371,"Finland","25-34",NA,"Several times a week",10,NA,7,2,6.33333333333333
+372,"Finland","65+",NA,"Every day",5,7,5,8,6.25
+373,"Estonia","55-64","primary","Several times a week",2,6,NA,NA,4
+374,"Finland","35-44",NA,"Every day",NA,10,9,6,8.33333333333333
+375,"Germany","25-34","tertiary","Every day",8,6,3,NA,5.66666666666667
+376,"Sweden","18-24","tertiary","Every day",0,0,4,10,3.5
+377,"Germany","65+","tertiary","Several times a week",0,2,5,2,2.25
+378,"Estonia","55-64","tertiary","Every day",NA,1,NA,3,2
+379,"Poland","35-44","primary","Every day",3,9,10,1,5.75
+380,"Finland","25-34","secondary","Once a week",7,NA,4,2,4.33333333333333
+381,"Finland","25-34","secondary",NA,NA,NA,5,1,3
+382,"","55-64","secondary","Once a month",8,NA,8,NA,8
+383,"Finland","18-24",NA,"Once a month",6,8,4,1,4.75
+384,"Poland","65+","tertiary","Once a month",4,NA,5,2,3.66666666666667
+385,"Poland","45-54","primary",NA,6,8,NA,7,7
+386,"Estonia","45-54","secondary","Once a month",NA,4,2,8,4.66666666666667
+387,"Sweden","25-34","secondary","Several times a week",NA,0,5,NA,2.5
+388,"Germany","65+","tertiary","Several times a month",8,0,NA,NA,4
+389,"Finland","55-64","secondary","Once a month",1,NA,4,0,1.66666666666667
+390,"Finland","25-34","tertiary",NA,10,1,5,0,4
+391,"Finland","35-44","tertiary","Every day",8,6,8,6,7
+392,"Finland","45-54","tertiary","Every day",2,4,6,0,3
+393,"Germany","35-44","tertiary","Once a month",0,7,NA,10,5.66666666666667
+394,"Finland","35-44","secondary","Every day",9,NA,3,4,5.33333333333333
+395,"Finland","18-24","tertiary","Several times a month",5,7,3,NA,5
+396,"Finland","25-34","secondary","Several times a month",NA,8,4,7,6.33333333333333
+397,"Finland","45-54","secondary","Less than once a month",NA,3,1,NA,2
+398,"Estonia","65+",NA,"Once a week",NA,6,5,9,6.66666666666667
+399,"Poland","45-54","tertiary",NA,8,9,4,7,7
+400,"Finland","45-54",NA,"Every day",8,NA,2,9,6.33333333333333
+401,"","35-44","secondary","Every day",3,0,9,0,3
+402,"Sweden","55-64",NA,"Several times a week",8,9,0,9,6.5
+403,"","55-64","tertiary","Once a week",NA,NA,3,6,4.5
+404,"Germany","18-24",NA,"Several times a month",NA,3,9,1,4.33333333333333
+405,"","25-34","tertiary","Never",6,10,NA,5,7
+406,"Estonia","55-64","secondary","Several times a month",2,2,6,8,4.5
+407,"Sweden","35-44","secondary","Every day",4,0,2,2,2
+408,"Germany","18-24",NA,NA,6,5,4,4,4.75
+409,"Sweden","35-44",NA,"Once a month",10,9,3,0,5.5
+410,"Finland","18-24","tertiary",NA,3,10,6,10,7.25
+411,"Finland","18-24","secondary","Several times a month",3,10,4,0,4.25
+412,"Finland","25-34","primary","Every day",NA,NA,9,NA,9
+413,"Finland","35-44","secondary","Several times a week",8,NA,10,NA,9
+414,"Estonia","65+","secondary","Never",10,NA,6,4,6.66666666666667
+415,"Sweden","55-64","tertiary","Once a month",NA,4,NA,6,5
+416,"Finland","65+","secondary","Once a week",3,7,NA,NA,5
+417,"Germany","55-64","tertiary",NA,3,8,7,2,5
+418,"Sweden","18-24","tertiary","Every day",NA,1,NA,8,4.5
+419,"Germany","35-44","primary","Every day",6,4,3,NA,4.33333333333333
+420,"","25-34","secondary","Every day",9,3,6,0,4.5
+421,"Estonia","25-34",NA,"Several times a month",7,1,6,NA,4.66666666666667
+422,"Estonia","65+","tertiary",NA,NA,0,NA,5,2.5
+423,"Sweden","25-34","secondary","Once a month",4,NA,NA,1,2.5
+424,"","25-34","secondary","Several times a month",4,NA,7,4,5
+425,"Germany","45-54","primary","Every day",NA,3,5,3,3.66666666666667
+426,"Poland","18-24",NA,"Less than once a month",NA,6,7,5,6
+427,"Sweden","18-24","primary",NA,1,0,7,2,2.5
+428,"Germany","25-34",NA,"Several times a week",9,4,9,8,7.5
+429,"Poland","35-44","secondary","Every day",9,7,8,3,6.75
+430,"","35-44","tertiary","Several times a week",NA,10,NA,1,5.5
+431,"Finland","25-34","primary","Never",NA,7,4,1,4
+432,"Poland","18-24","tertiary","Never",4,3,NA,7,4.66666666666667
+433,"Germany","65+","secondary","Several times a week",6,9,5,9,7.25
+434,"Finland","35-44",NA,"Every day",3,NA,NA,0,1.5
+435,"Estonia","35-44","secondary","Every day",NA,0,NA,4,2
+436,"Estonia","25-34",NA,"Once a week",8,0,8,1,4.25
+437,"Finland","55-64","secondary",NA,NA,7,3,NA,5
+438,"Sweden","65+","primary","Several times a month",7,10,3,10,7.5
+439,"Finland","18-24","secondary","Several times a week",4,NA,9,0,4.33333333333333
+440,"Finland","35-44","secondary","Once a week",5,6,7,2,5
+441,"Poland","65+",NA,"Never",1,NA,6,7,4.66666666666667
+442,"Germany","65+","tertiary","Once a week",NA,NA,8,5,6.5
+443,"Sweden","25-34","tertiary","Every day",0,9,1,8,4.5
+444,"Finland","35-44","primary","Every day",10,2,NA,4,5.33333333333333
+445,"Finland","65+","tertiary","Every day",3,6,6,NA,5
+446,"Estonia","18-24","tertiary","Less than once a month",1,NA,4,NA,2.5
+447,"Finland","35-44","tertiary","Several times a week",10,7,2,3,5.5
+448,"Poland","25-34","primary","Every day",4,5,NA,NA,4.5
+449,"Finland","65+","tertiary","Every day",9,8,NA,NA,8.5
+450,"Sweden","25-34","tertiary","Every day",NA,NA,5,6,5.5
+451,"Finland","65+",NA,"Once a week",10,9,3,3,6.25
+452,"Finland","18-24","primary","Several times a week",5,NA,2,NA,3.5
+453,"Sweden","65+","tertiary","Several times a week",NA,4,NA,6,5
+454,"Finland","18-24",NA,"Several times a month",NA,3,9,10,7.33333333333333
+455,"Finland","55-64","tertiary","Every day",5,9,2,NA,5.33333333333333
+456,"Finland","18-24",NA,"Once a week",9,NA,7,6,7.33333333333333
+457,"Poland","45-54","secondary","Once a week",2,2,8,10,5.5
+458,"Estonia","45-54",NA,"Once a week",NA,2,7,NA,4.5
+459,"Poland","45-54","tertiary","Several times a month",0,9,1,5,3.75
+460,"Finland","65+",NA,"Every day",10,6,NA,3,6.33333333333333
+461,"Estonia","25-34","tertiary","Several times a month",8,6,5,0,4.75
+462,"Germany","35-44",NA,"Several times a week",3,NA,10,9,7.33333333333333
+463,"Sweden","25-34","secondary","Several times a week",4,7,NA,1,4
+464,"Finland","65+",NA,"Once a week",NA,8,NA,NA,8
+465,"Finland","18-24","tertiary","Several times a week",NA,0,3,9,4
+466,"Poland","25-34","primary",NA,NA,NA,4,9,6.5
+467,"Finland","55-64",NA,"Every day",4,NA,NA,1,2.5
+468,"Finland","35-44","primary","Several times a week",NA,NA,1,NA,1
+469,"Finland","55-64","secondary","Once a month",5,NA,NA,10,7.5
+470,"Estonia","45-54",NA,NA,4,10,9,7,7.5
+471,"Finland","45-54","secondary","Once a month",NA,2,8,7,5.66666666666667
+472,"Estonia","65+",NA,"Every day",7,2,1,10,5
+473,"Finland","55-64",NA,"Less than once a month",9,4,10,8,7.75
+474,"Germany","18-24","tertiary","Several times a week",4,5,5,4,4.5
+475,"Germany","45-54","primary","Every day",8,2,6,1,4.25
+476,"Finland","35-44","secondary","Several times a month",9,6,0,5,5
+477,"Finland","45-54","secondary","Every day",9,1,6,3,4.75
+478,"Finland","25-34",NA,"Every day",7,9,1,NA,5.66666666666667
+479,"Finland","55-64","secondary","Once a month",0,7,6,5,4.5
+480,"","25-34","tertiary","Once a month",NA,6,4,5,5
+481,"Finland","25-34","secondary",NA,1,6,4,1,3
+482,"Finland","35-44","secondary","Every day",9,5,4,0,4.5
+483,"Sweden","65+","secondary","Every day",NA,9,NA,3,6
+484,"Finland","55-64",NA,"Several times a week",NA,6,1,5,4
+485,"Finland","45-54","tertiary","Every day",8,3,7,0,4.5
+486,"Germany","55-64","tertiary","Every day",7,9,2,2,5
+487,"Poland","65+",NA,"Several times a month",6,1,5,3,3.75
+488,"Finland","65+",NA,"Every day",7,3,6,8,6
+489,"Estonia","45-54",NA,"Every day",6,10,10,10,9
+490,"Sweden","55-64",NA,"Less than once a month",NA,NA,7,NA,7
+491,"Estonia","18-24","tertiary","Once a week",9,7,7,10,8.25
+492,"Finland","35-44",NA,"Less than once a month",NA,5,8,4,5.66666666666667
+493,"Sweden","35-44","tertiary","Never",NA,NA,0,5,2.5
+494,"Finland","25-34",NA,NA,0,1,NA,7,2.66666666666667
+495,"Estonia","25-34","tertiary","Every day",8,10,3,4,6.25
+496,"Sweden","25-34","tertiary","Every day",NA,7,NA,2,4.5
+497,"Finland","65+","tertiary","Every day",2,9,4,7,5.5
+498,"Estonia","55-64","tertiary","Several times a week",9,7,5,4,6.25
+499,"Finland","45-54","tertiary","Once a month",7,1,0,5,3.25
+500,"Poland","55-64","tertiary","Every day",0,6,NA,5,3.66666666666667
+501,"Finland","45-54","primary",NA,7,0,7,3,4.25
+502,"Finland","55-64","tertiary","Every day",NA,NA,0,10,5
+503,"Finland","65+",NA,"Several times a week",9,10,7,1,6.75
+504,"Estonia","18-24",NA,"Never",3,NA,4,9,5.33333333333333
+505,"Finland","65+","tertiary","Several times a week",9,3,8,NA,6.66666666666667
+506,"","18-24","tertiary","Every day",8,NA,4,2,4.66666666666667
+507,"Finland","35-44","tertiary","Several times a month",NA,NA,8,0,4
+508,"Estonia","35-44","tertiary","Every day",2,1,6,NA,3
+509,"Poland","45-54","primary","Less than once a month",7,1,4,10,5.5
+510,"Germany","25-34","tertiary","Several times a week",NA,6,1,NA,3.5
+511,"Estonia","18-24","tertiary",NA,7,NA,NA,1,4
+512,"","45-54","tertiary","Less than once a month",1,NA,6,NA,3.5
+513,"Finland","35-44","secondary","Every day",NA,NA,0,1,0.5
+514,"Poland","65+",NA,"Every day",8,3,10,3,6
+515,"Finland","55-64","tertiary","Every day",NA,8,NA,9,8.5
+516,"Finland","35-44","secondary","Every day",2,NA,5,5,4
+517,"Finland","55-64","primary","Several times a month",3,7,3,NA,4.33333333333333
+518,"Finland","35-44","tertiary","Once a week",NA,8,NA,NA,8
+519,"Sweden","55-64","secondary","Every day",4,0,3,4,2.75
+520,"Estonia","55-64","tertiary","Never",3,2,NA,NA,2.5
+521,"Finland","18-24","secondary","Every day",9,8,3,9,7.25
+522,"Finland","25-34","tertiary","Every day",4,9,NA,NA,6.5
+523,"Finland","45-54",NA,"Every day",NA,6,10,NA,8
+524,"Sweden","65+",NA,NA,3,2,7,7,4.75
+525,"Finland","25-34","tertiary","Several times a month",NA,5,NA,NA,5
+526,"Finland","18-24",NA,"Every day",10,1,8,NA,6.33333333333333
+527,"Germany","65+",NA,"Several times a month",10,2,3,NA,5
+528,"Estonia","65+","primary","Every day",NA,NA,10,NA,10
+529,"Germany","65+",NA,"Several times a week",NA,10,10,5,8.33333333333333
+530,"Finland","65+","primary","Every day",4,3,0,6,3.25
+531,"Germany","45-54","secondary","Every day",5,NA,5,6,5.33333333333333
+532,"Finland","45-54","tertiary","Several times a week",1,NA,NA,5,3
+533,"Estonia","35-44","primary","Several times a week",0,3,10,1,3.5
+534,"Sweden","25-34","tertiary","Several times a week",NA,0,6,0,2
+535,"Finland","65+","secondary","Several times a month",5,1,6,NA,4
+536,"Poland","18-24",NA,"Every day",NA,10,8,10,9.33333333333333
+537,"Sweden","18-24","tertiary","Never",10,NA,8,4,7.33333333333333
+538,"Finland","25-34","tertiary","Less than once a month",0,1,4,0,1.25
+539,"Finland","65+","secondary","Every day",6,3,NA,2,3.66666666666667
+540,"Sweden","35-44","tertiary","Several times a month",NA,2,4,6,4
+541,"Finland","35-44",NA,"Every day",9,8,7,5,7.25
+542,"Finland","25-34","tertiary","Several times a week",NA,8,2,NA,5
+543,"Estonia","55-64","tertiary","Several times a month",7,0,1,2,2.5
+544,"Estonia","18-24",NA,"Every day",4,3,NA,5,4
+545,"Finland","65+","tertiary","Every day",7,3,9,7,6.5
+546,"Poland","35-44","tertiary","Every day",NA,9,NA,3,6
+547,"Poland","35-44","secondary","Never",NA,9,1,NA,5
+548,"Finland","25-34","tertiary","Every day",NA,5,NA,4,4.5
+549,"Finland","55-64","primary","Less than once a month",6,NA,10,NA,8
+550,"Finland","45-54","secondary","Several times a month",0,8,NA,10,6
+551,"","55-64","tertiary","Once a week",6,6,5,1,4.5
+552,"Poland","65+",NA,"Several times a week",7,9,2,0,4.5
+553,"Sweden","55-64","secondary","Every day",4,10,3,10,6.75
+554,"Germany","35-44","primary",NA,7,4,10,8,7.25
+555,"Germany","18-24","primary","Several times a month",0,NA,9,8,5.66666666666667
+556,"Estonia","35-44",NA,"Several times a month",NA,5,6,0,3.66666666666667
+557,"Germany","25-34","tertiary","Several times a week",NA,8,3,7,6
+558,"Estonia","45-54","primary","Once a month",0,0,9,7,4
+559,"Sweden","25-34",NA,"Once a month",3,7,6,NA,5.33333333333333
+560,"Finland","55-64",NA,"Several times a week",1,3,10,0,3.5
+561,"Finland","55-64","tertiary","Every day",6,NA,9,8,7.66666666666667
+562,"","25-34","secondary","Every day",4,4,6,NA,4.66666666666667
+563,"Poland","25-34","tertiary","Several times a week",6,10,0,NA,5.33333333333333
+564,"","25-34",NA,"Several times a month",6,4,NA,NA,5
+565,"Finland","18-24",NA,"Once a week",NA,9,10,6,8.33333333333333
+566,"Sweden","45-54","tertiary","Several times a month",8,9,9,4,7.5
+567,"Finland","45-54",NA,"Once a week",NA,2,1,7,3.33333333333333
+568,"Estonia","25-34","secondary","Every day",10,3,NA,6,6.33333333333333
+569,"Poland","65+","secondary","Every day",5,NA,NA,7,6
+570,"Finland","55-64","tertiary","Several times a week",2,4,3,8,4.25
+571,"Poland","18-24","primary","Every day",6,7,6,10,7.25
+572,"Estonia","18-24","tertiary","Never",8,NA,NA,0,4
+573,"Finland","18-24","primary",NA,10,1,2,NA,4.33333333333333
+574,"Finland","55-64","primary","Every day",NA,NA,8,9,8.5
+575,"Finland","65+","secondary","Several times a week",3,9,4,2,4.5
+576,"","45-54",NA,NA,0,NA,9,NA,4.5
+577,"Estonia","35-44","primary","Every day",1,8,NA,5,4.66666666666667
+578,"Finland","18-24","primary","Several times a week",8,2,NA,NA,5
+579,"Sweden","35-44",NA,"Every day",NA,2,6,10,6
+580,"Poland","45-54","tertiary",NA,4,3,5,2,3.5
+581,"Finland","55-64","secondary",NA,7,8,8,NA,7.66666666666667
+582,"Estonia","35-44","tertiary","Every day",3,10,9,8,7.5
+583,"Poland","45-54","secondary","Several times a month",9,9,NA,8,8.66666666666667
+584,"Germany","65+","tertiary","Several times a week",1,7,6,NA,4.66666666666667
+585,"Finland","35-44","tertiary","Several times a month",0,3,6,0,2.25
+586,"Finland","55-64","secondary","Several times a month",0,4,8,1,3.25
+587,"Germany","55-64",NA,"Less than once a month",NA,NA,1,5,3
+588,"Estonia","55-64","tertiary","Several times a week",0,7,0,0,1.75
+589,"Estonia","35-44","tertiary",NA,NA,2,3,7,4
+590,"Finland","45-54","tertiary","Once a week",8,NA,2,10,6.66666666666667
+591,"Finland","18-24","tertiary","Once a month",2,8,8,1,4.75
+592,"Germany","65+","tertiary","Several times a week",9,8,8,1,6.5
+593,"Finland","35-44","tertiary","Every day",0,0,9,6,3.75
+594,"Finland","25-34",NA,"Less than once a month",1,NA,7,5,4.33333333333333
+595,"Finland","18-24","secondary","Every day",NA,8,7,4,6.33333333333333
+596,"Finland","65+","secondary","Several times a month",2,2,10,6,5
+597,"Germany","45-54","secondary","Every day",8,6,0,NA,4.66666666666667
+598,"Poland","55-64","secondary","Once a month",3,7,2,0,3
+599,"Finland","55-64","secondary","Less than once a month",NA,4,5,9,6
+600,"Poland","35-44",NA,"Every day",3,5,3,10,5.25
