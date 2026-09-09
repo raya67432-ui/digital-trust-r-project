@@ -1,0 +1,224 @@
+---
+title: "Digital Media Use and Trust in Institutions"
+subtitle: "A data cleaning & descriptive analysis walkthrough in R"
+author: "Raya"
+date: "`r format(Sys.Date(), '%B %Y')`"
+output:
+  html_document:
+    theme: flatly
+    toc: true
+    toc_float: true
+    code_folding: show
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(scales)
+```
+
+## About this project
+
+This project demonstrates a standard applied workflow in survey-based social
+research: taking a raw, messy data export and turning it into a clean data set
+ready for descriptive analysis.
+
+**Note on the data:** the survey responses used here are simulated, but the
+questionnaire items are modeled directly on real survey instruments, the
+European Social Survey's media-use module and the standard 0–10 institutional
+trust battery used in the ESS and World Values Survey. Real cross-national
+survey exports (raw `.csv`/`.sav` files) commonly contain exactly the kinds
+of problems handled below: inconsistent category labels, numeric missing-value
+codes (e.g. `98`/`99` for "don't know"/"refused"), blank strings, stray
+whitespace, and duplicate rows from export errors. Simulating this lets the
+cleaning steps below reflect real research practice while keeping the project
+self-contained and reproducible for anyone reviewing it.
+
+The research question this mirrors: **does frequency of online news/social
+media use relate to how much people trust core institutions (parliament,
+press, science, politicians)?** — a live question in the digital
+disinformation/media-literacy literature.
+
+## 1. Load the raw data
+
+```{r load}
+raw <- read.csv("raw_survey_export.csv", stringsAsFactors = FALSE)
+str(raw)
+```
+
+```{r glimpse}
+head(raw, 5)
+```
+
+The raw export has `r nrow(raw)` rows and `r ncol(raw)` columns — already more
+rows than expected, a first sign of duplicates to check for.
+
+## 2. Clean the data
+
+### 2.1 Remove duplicate and incomplete rows
+
+```{r dedupe}
+clean <- raw %>%
+  distinct(resp_id, .keep_all = TRUE) %>%     # drop duplicate respondents
+  filter(!is.na(country))                     # drop rows with no country recorded
+
+cat("Rows after de-duplication:", nrow(clean), "\n")
+```
+
+### 2.2 Standardise the education variable
+
+Raw category labels are inconsistent (`"Secondary"` vs `"secondary "` vs
+trailing whitespace vs `"NA"` as a literal string).
+
+```{r clean_education}
+clean <- clean %>%
+  mutate(
+    education = trimws(tolower(education)),
+    education = na_if(education, "na"),
+    education = na_if(education, ""),
+    education = recode(education,
+                        "phd" = "tertiary"),   # fold PhD into tertiary for this analysis
+    education = factor(education,
+                        levels = c("primary", "secondary", "tertiary"),
+                        ordered = TRUE)
+  )
+
+table(clean$education, useNA = "ifany")
+```
+
+### 2.3 Recode internet/social media news use into an ordered factor
+
+```{r clean_netuse}
+clean <- clean %>%
+  mutate(
+    net_use_news = na_if(net_use_news, "98"),
+    net_use_news = na_if(net_use_news, "99"),
+    net_use_news = factor(net_use_news,
+      levels = c("Never", "Less than once a month", "Once a month",
+                 "Several times a month", "Once a week",
+                 "Several times a week", "Every day"),
+      ordered = TRUE)
+  )
+
+table(clean$net_use_news, useNA = "ifany")
+```
+
+### 2.4 Clean the trust items (0–10 scales)
+
+Survey exports typically use out-of-range numeric codes for missing data
+(here `98` = "don't know", `99` = "refused"); these need to become proper
+`NA`s before any averaging, or they will silently wreck the descriptive
+statistics.
+
+```{r clean_trust}
+trust_vars <- c("trust_parliament", "trust_press", "trust_science", "trust_politicians")
+
+clean <- clean %>%
+  mutate(across(all_of(trust_vars), as.character)) %>%
+  mutate(across(all_of(trust_vars), ~ na_if(.x, ""))) %>%
+  mutate(across(all_of(trust_vars), ~ suppressWarnings(as.numeric(.x)))) %>%
+  mutate(across(all_of(trust_vars), ~ ifelse(.x %in% c(98, 99), NA, .x)))
+
+summary(clean[trust_vars])
+```
+
+### 2.5 Build a composite trust index
+
+A common step in this literature: average the four trust items into a single
+institutional trust index per respondent.
+
+```{r trust_index}
+clean <- clean %>%
+  rowwise() %>%
+  mutate(trust_index = mean(c_across(all_of(trust_vars)), na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(trust_index = ifelse(is.nan(trust_index), NA, trust_index))
+
+summary(clean$trust_index)
+```
+
+## 3. Descriptive analysis
+
+### 3.1 Sample composition
+
+```{r sample_comp}
+clean %>%
+  count(country) %>%
+  arrange(desc(n))
+```
+
+```{r edu_comp}
+clean %>%
+  filter(!is.na(education)) %>%
+  count(education) %>%
+  mutate(pct = percent(n / sum(n)))
+```
+
+### 3.2 Distribution of the trust index
+
+```{r trust_dist_plot}
+ggplot(clean %>% filter(!is.na(trust_index)), aes(x = trust_index)) +
+  geom_histogram(binwidth = 0.5, fill = "#2c6e91", color = "white") +
+  labs(title = "Distribution of institutional trust index",
+       subtitle = "Average of trust in parliament, press, science, and politicians (0-10 scale)",
+       x = "Trust index (0-10)", y = "Number of respondents") +
+  theme_minimal(base_size = 12)
+```
+
+### 3.3 Trust by frequency of online news/social media use
+
+This is the key descriptive relationship: mean trust index by how often
+respondents use the internet/social media for news.
+
+```{r trust_by_netuse}
+by_netuse <- clean %>%
+  filter(!is.na(net_use_news), !is.na(trust_index)) %>%
+  group_by(net_use_news) %>%
+  summarise(
+    mean_trust = mean(trust_index, na.rm = TRUE),
+    n = n(),
+    .groups = "drop"
+  )
+
+by_netuse
+```
+
+```{r trust_by_netuse_plot, fig.width=8}
+ggplot(by_netuse, aes(x = net_use_news, y = mean_trust)) +
+  geom_col(fill = "#c15b3c") +
+  labs(title = "Mean institutional trust by frequency of online news use",
+       x = "Frequency of using internet/social media for news",
+       y = "Mean trust index (0-10)") +
+  theme_minimal(base_size = 12) +
+  theme(axis.text.x = element_text(angle = 35, hjust = 1))
+```
+
+### 3.4 Trust by education level
+
+```{r trust_by_edu}
+clean %>%
+  filter(!is.na(education), !is.na(trust_index)) %>%
+  group_by(education) %>%
+  summarise(mean_trust = mean(trust_index), sd_trust = sd(trust_index), n = n(),
+            .groups = "drop")
+```
+
+## 4. Summary
+
+Starting from a raw export with duplicate rows, inconsistent category
+labels, and numeric missing-value codes, this workflow produced:
+
+- a de-duplicated, cleanly typed dataset (`r nrow(clean)` respondents)
+- a validated composite institutional trust index
+- descriptive breakdowns of trust by online news-use frequency and by
+  education level, with accompanying visualizations
+
+This is the kind of pipeline — cleaning raw survey exports into an
+analysis-ready dataset and producing clear descriptive summaries — that
+underlies most applied social science data work in R.
+
+```{r save_clean, include=FALSE}
+write.csv(clean, "clean_survey_data.csv", row.names = FALSE)
+```
