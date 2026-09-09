@@ -19,7 +19,11 @@ R, dplyr, tidyr, ggplot2, rmarkdown
 
 Files
 generate_raw_data.R — generates the simulated raw survey export
+
 raw_survey_export.csv — the raw ("messy") input data
+
 digital_trust_analysis.Rmd — the full analysis, cleaning-to-descriptives
+
 digital_trust_analysis.html — rendered report
+
 clean_survey_data.csv — the cleaned output dataset
