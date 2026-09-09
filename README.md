@@ -27,3 +27,13 @@ digital_trust_analysis.Rmd — the full analysis, cleaning-to-descriptives
 digital_trust_analysis.html — rendered report
 
 clean_survey_data.csv — the cleaned output dataset
+
+
+**[👉 View the full report here](./digital_trust_analysis.html)**
+
+## Files
+- [generate_raw_data.R](./generate_raw_data.R) — generates the simulated raw survey export
+- [raw_survey_export.csv](./raw_survey_export.csv) — the raw ("messy") input data
+- [digital_trust_analysis.Rmd](./digital_trust_analysis.Rmd) — the full analysis, cleaning-to-descriptives
+- [digital_trust_analysis.html](./digital_trust_analysis.html) — rendered report
+- [clean_survey_data.csv](./clean_survey_data.csv) — the cleaned output dataset
