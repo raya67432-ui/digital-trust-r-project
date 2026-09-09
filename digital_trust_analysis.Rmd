@@ -1,7 +1,7 @@
 ---
 title: "Digital Media Use and Trust in Institutions"
 subtitle: "A data cleaning & descriptive analysis walkthrough in R"
-author: "Raya"
+author: "Raya Sengupta"
 date: "`r format(Sys.Date(), '%B %Y')`"
 output:
   html_document:
@@ -38,7 +38,7 @@ self-contained and reproducible for anyone reviewing it.
 
 The research question this mirrors: **does frequency of online news/social
 media use relate to how much people trust core institutions (parliament,
-press, science, politicians)?** — a live question in the digital
+press, science, politicians)?** a live question in the digital
 disinformation/media-literacy literature.
 
 ## 1. Load the raw data
@@ -215,9 +215,7 @@ labels, and numeric missing-value codes, this workflow produced:
 - descriptive breakdowns of trust by online news-use frequency and by
   education level, with accompanying visualizations
 
-This is the kind of pipeline — cleaning raw survey exports into an
-analysis-ready dataset and producing clear descriptive summaries — that
-underlies most applied social science data work in R.
+
 
 ```{r save_clean, include=FALSE}
 write.csv(clean, "clean_survey_data.csv", row.names = FALSE)
